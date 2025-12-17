@@ -1,10 +1,20 @@
 # TODO edit this code
 
-# param
-n = int(input())
 
-# solve
-ans = n
+def main():
+    # param
+    n = int(input())
 
-# answer
-print(ans)
+    # solve
+    ans = n
+
+    # answer
+    print(ans)
+
+main()
+
+#最適解
+def gpt_main():
+    return
+
+#覚えること
