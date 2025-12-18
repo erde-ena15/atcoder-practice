@@ -16,5 +16,5 @@ main()
 # 絶対値を取る関数
 
 #sorted(a, reverse=False)
-# リストを降順にソートする関数
+# リストを昇順にソートする関数
 # 降順にするにはreverse=Trueにする
