@@ -27,6 +27,35 @@ def main():
         print(a)
 main()
 
+def fixed_main():
+    t = int(input())
+
+    for _ in range(t):
+        n = int(input())
+        pt = []
+        total_power = 0  # ← ΣP
+
+        for _ in range(n):
+            W, P = map(int, input().split())
+            pt.append(W + P)
+            total_power += P
+
+        pt.sort()
+
+        used = 0
+        count = 0
+        for c in pt:
+            if used + c <= total_power:
+                used += c
+                count += 1
+            else:
+                break
+
+        print(count)
+
+main()
+
+
 #最適解
 def gpt_main():
     return
